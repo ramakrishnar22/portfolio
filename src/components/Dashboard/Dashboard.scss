@@ -1,11 +1,25 @@
 .dashboard-wrap{
     display: flex;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     position: absolute;
     .navbar{
         height: 35px;
         padding: 10px 0 10px 0px;
         width: 100%;
+        box-shadow: 0px 2px 5px 0px ;
+        display: flex;
+        .left{
+            width:10%;
+        }
+
+        .navlist{
+           display: flex;
+           justify-content: space-between;
+           margin: 0;
+           padding: 0;
+           list-style: none;
+           width: 83%;
+        }
     }
 }
